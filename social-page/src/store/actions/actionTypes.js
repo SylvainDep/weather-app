@@ -1,0 +1,3 @@
+export const FETCH_PERSON = 'FETCH_PERSON'
+
+export const FETCH_LOCAL_TIME = 'FETCH_LOCAL_TIME'
