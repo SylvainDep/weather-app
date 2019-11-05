@@ -1,0 +1,26 @@
+.tile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: #4876C2;
+  margin: 20px 0;
+  padding: 20px;
+}
+
+.tile div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 80%;
+  align-items: center;
+  flex-basis: 25%;
+}
+
+.tile p {
+  text-align: center
+}
+
+.tile img {
+  width: 80%;
+}
