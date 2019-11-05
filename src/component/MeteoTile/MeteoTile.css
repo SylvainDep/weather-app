@@ -5,7 +5,7 @@
   width: 100%;
   background-color: #4876C2;
   margin: 20px 0;
-  padding: 20px;
+  padding: 0 20px;
 }
 
 .tile div {
@@ -23,4 +23,8 @@
 
 .tile img {
   width: 80%;
+}
+
+.weatherconditions p {
+  margin-top: 0
 }
