@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import axios from 'axios'
 
 import MeteoTile from '../../component/MeteoTile/MeteoTile'
+import Credentials from '../../component/Credentials/Credentials'
 import './MeteoApp.css'
 
 class MeteoApp extends Component {
@@ -102,6 +103,7 @@ class MeteoApp extends Component {
           <MeteoTile forecast={this.state.conditions[2]} />
           <MeteoTile forecast={this.state.conditions[3]} />
           <MeteoTile forecast={this.state.conditions[4]} />
+          <Credentials />
         </>
       )
     }
