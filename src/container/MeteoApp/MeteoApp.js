@@ -98,11 +98,11 @@ class MeteoApp extends Component {
       content = (
         <>
           <h1>{this.state.city}, {this.state.country}</h1>
-          <MeteoTile forecast={this.state.conditions[0]} />
-          <MeteoTile forecast={this.state.conditions[1]} />
-          <MeteoTile forecast={this.state.conditions[2]} />
-          <MeteoTile forecast={this.state.conditions[3]} />
-          <MeteoTile forecast={this.state.conditions[4]} />
+          {
+            this.state.conditions.map(key => {
+              return <MeteoTile forecast={key} />
+            })
+          }
           <Credentials />
         </>
       )
